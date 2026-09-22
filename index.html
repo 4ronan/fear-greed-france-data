@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fear & Greed France</title>
+<style>
+:root{--b:#236fc1;--ink:#172033;--muted:#667085;--line:#dce4ed;--bg:#f5f8fb;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink)}
+.wrap{max-width:1050px;margin:auto;padding:22px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 10px 28px rgba(20,40,70,.07)}
+h1{margin:0;font-size:clamp(1.6rem,4vw,2.5rem)}.sub{color:var(--muted);margin-top:6px}.hero{margin-top:18px;text-align:center}
+.score{font-size:clamp(4rem,14vw,8rem);font-weight:950;letter-spacing:-.08em;line-height:.95}.label{font-size:1.25rem;font-weight:900;margin-top:8px}
+.meta{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:12px}.pill{border:1px solid var(--line);border-radius:999px;padding:6px 10px;font-size:.8rem;color:var(--muted)}
+.bar{height:14px;border-radius:999px;background:linear-gradient(90deg,#b62f3b,#e68139,#e9c43b,#73a84c,#20815e);margin:20px auto 8px;max-width:700px;position:relative}
+.mark{position:absolute;top:-6px;width:4px;height:26px;background:var(--ink);border-radius:4px;left:0;transition:left .5s}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}.comp{padding:15px}.comp b{font-size:1.4rem}.comp small{display:block;color:var(--muted);margin-top:5px}
+canvas{width:100%;height:220px;margin-top:12px}.note{font-size:.82rem;color:var(--muted);line-height:1.5;margin-top:16px}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:440px){.grid{grid-template-columns:1fr}.wrap{padding:12px}}
+</style></head><body><div class="wrap">
+<h1>Fear & Greed France</h1><div class="sub">Indice expérimental du sentiment du marché français · données calculées automatiquement sur GitHub</div>
+<section class="card hero"><div class="score" id="score">—</div><div class="label" id="label">Chargement…</div>
+<div class="bar"><i class="mark" id="mark"></i></div><div class="meta"><span class="pill" id="date">Date : —</span><span class="pill" id="coverage">Couverture : —</span><span class="pill" id="updated">MAJ : —</span></div></section>
+<section class="grid" id="components"></section>
+<section class="card" style="margin-top:16px"><b>Historique</b><canvas id="chart" width="900" height="240"></canvas>
+<div class="note">0–24 : peur extrême · 25–44 : peur · 45–55 : neutre · 56–75 : avidité · 76–100 : avidité extrême. Cet indicateur est expérimental et ne constitue pas un conseil en investissement.</div></section>
+</div>
+<script>
+const BASE="https://raw.githubusercontent.com/4ronan/fear-greed-france-data/main/data/";
+const $=id=>document.getElementById(id); const fmtDate=x=>x?new Date(x).toLocaleString("fr-FR"):"—";
+async function json(name){const r=await fetch(BASE+name+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
+function draw(hist){const c=$("chart"),ctx=c.getContext("2d"),dpr=devicePixelRatio||1,w=c.clientWidth||900,h=220;c.width=w*dpr;c.height=h*dpr;ctx.scale(dpr,dpr);ctx.clearRect(0,0,w,h);
+const d=hist.slice(-365).filter(x=>Number.isFinite(x.score));if(d.length<2){ctx.fillText("Historique en cours de constitution.",14,30);return}
+ctx.strokeStyle="#236fc1";ctx.lineWidth=2;ctx.beginPath();d.forEach((x,i)=>{const px=12+(w-24)*i/(d.length-1),py=h-12-(h-24)*x.score/100;i?ctx.lineTo(px,py):ctx.moveTo(px,py)});ctx.stroke()}
+(async()=>{try{const [d,h]=await Promise.all([json("fear-greed.json"),json("history.json")]);$("score").textContent=Number.isFinite(d.score)?Math.round(d.score):"—";$("label").textContent=d.label||"Indisponible";
+$("mark").style.left=(Math.max(0,Math.min(100,d.score||0)))+"%";$("date").textContent="Marché : "+(d.market_date||"—");$("coverage").textContent="Couverture : "+(d.coverage_pct??0)+" %";$("updated").textContent="MAJ : "+fmtDate(d.generated_at);
+const box=$("components");for(const [k,v] of Object.entries(d.components||{})){const e=document.createElement("article");e.className="card comp";e.innerHTML="<div>"+(v.name||k)+"</div><b>"+(Number.isFinite(v.score)?Math.round(v.score):"—")+"</b><small>Poids "+(v.weight??"—")+" %</small>";box.appendChild(e)}draw(h);}
+catch(e){$("label").textContent="Données indisponibles";console.error(e)}})();
+</script></body></html>
