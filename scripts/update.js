@@ -179,16 +179,40 @@ function calcRelative(a,b){
   const z=alignByDate(a,b),rr=rollingRatioReturn(z.a,z.b,60),cur=last(rr),p=percentile(rr.slice(-1260),cur);
   return Number.isFinite(p)?{score:p,metrics:{relative60:cur}}:null;
 }
+function dayKey(ts){
+  return new Date(ts*1000).toISOString().slice(0,10);
+}
+function carryForwardByDate(rows,maxGapDays=4){
+  const out=new Map();
+  const sorted=rows.slice().sort((a,b)=>a.t-b.t);
+  for(const r of sorted) out.set(dayKey(r.t),r.close);
+  return {sorted,out,maxGapDays};
+}
+function previousAvailable(series,dateKey){
+  const target=new Date(dateKey+"T00:00:00Z").getTime();
+  for(let gap=0;gap<=series.maxGapDays;gap++){
+    const d=new Date(target-gap*86400000).toISOString().slice(0,10);
+    const v=series.out.get(d);
+    if(Number.isFinite(v)) return v;
+  }
+  return null;
+}
 function calcRisk(cac,gold,fx){
-  const gm=new Map(gold.rows.map(x=>[x.t,x.close]));
-  const fm=new Map(fx.rows.map(x=>[x.t,x.close]));
+  const goldByDate=carryForwardByDate(gold.rows,4);
+  const fxByDate=carryForwardByDate(fx.rows,4);
   const a=[],b=[];
   for(const x of cac.rows){
-    const g=gm.get(x.t),f=fm.get(x.t);
-    if(Number.isFinite(g)&&Number.isFinite(f)&&f>0){a.push(x.close);b.push(g/f);}
+    const d=dayKey(x.t);
+    const g=previousAvailable(goldByDate,d);
+    const f=previousAvailable(fxByDate,d);
+    if(Number.isFinite(g)&&Number.isFinite(f)&&f>0){
+      a.push(x.close);
+      b.push(g/f);
+    }
   }
+  if(a.length<120)return null;
   const rr=rollingRatioReturn(a,b,60),cur=last(rr),p=percentile(rr.slice(-1260),cur);
-  return Number.isFinite(p)?{score:p,metrics:{relative60:cur}}:null;
+  return Number.isFinite(p)?{score:p,metrics:{relative60:cur,alignedDays:a.length}}:null;
 }
 function calcBreadthStrength(items){
   const usable=items.filter(x=>x&&x.close?.length>=252);
@@ -210,21 +234,43 @@ function calcBreadthStrength(items){
   };
 }
 async function gdeltScore(){
-  const q='("CAC 40" OR "Bourse de Paris" OR "économie française" OR "marchés financiers") sourcecountry:france sourcelang:french';
-  const url="https://api.gdeltproject.org/api/v2/doc/doc?query="+encodeURIComponent(q)+"&mode=timelinetone&format=json&timespan=3months";
-  const j=await fetchJSON(url,15000),vals=[];
-  const walk=o=>{
-    if(Array.isArray(o)){o.forEach(walk);return;}
-    if(o&&typeof o==="object"){
-      if(Number.isFinite(o.value))vals.push(o.value);
-      Object.entries(o).forEach(([k,v])=>{if(k!=="value")walk(v);});
+  const queries=[
+    '("CAC 40" OR "Paris stock exchange" OR "French economy" OR "financial markets") sourcecountry:france sourcelang:french',
+    '("CAC 40" OR "Paris stock exchange" OR "French economy") sourcecountry:france',
+    '("CAC 40" OR "Paris stock exchange")'
+  ];
+  let lastError;
+  for(const q of queries){
+    const url="https://api.gdeltproject.org/api/v2/doc/doc?query="+encodeURIComponent(q)+"&mode=timelinetone&format=json&timespan=3months";
+    for(let attempt=1;attempt<=2;attempt++){
+      try{
+        const j=await fetchJSON(url,20000),vals=[];
+        const walk=o=>{
+          if(Array.isArray(o)){o.forEach(walk);return;}
+          if(o&&typeof o==="object"){
+            if(Number.isFinite(o.value))vals.push(o.value);
+            if(Array.isArray(o.data)){
+              for(const item of o.data){
+                if(Array.isArray(item)&&Number.isFinite(item[item.length-1])) vals.push(item[item.length-1]);
+              }
+            }
+            Object.entries(o).forEach(([k,v])=>{if(k!=="value"&&k!=="data")walk(v);});
+          }
+        };
+        walk(j?.timeline??j);
+        const clean=vals.filter(x=>Number.isFinite(x)&&x>-100&&x<100);
+        if(clean.length>=10){
+          const cur=last(clean);
+          return {score:percentile(clean,cur),metrics:{tone:cur,points:clean.length,query:q}};
+        }
+        throw new Error("Série GDELT insuffisante");
+      }catch(e){
+        lastError=e;
+        await sleep(2000*attempt);
+      }
     }
-  };
-  walk(j?.timeline??j);
-  const clean=vals.filter(x=>Number.isFinite(x)&&x>-100&&x<100);
-  if(clean.length<10)throw new Error("Série GDELT insuffisante");
-  const cur=last(clean);
-  return {score:percentile(clean,cur),metrics:{tone:cur,points:clean.length}};
+  }
+  throw lastError||new Error("GDELT indisponible");
 }
 
 function readJSON(file,fallback){
