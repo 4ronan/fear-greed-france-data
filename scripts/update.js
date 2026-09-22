@@ -246,7 +246,7 @@ function aggregate(scores){
 }
 
 async function main(){
-  console.log("Fear & Greed France V3");
+  console.log("Fear & Greed France V3");\n  console.log("Run source: GitHub Actions");
   const diagnostics={},refs={};
 
   for(const [key,symbol,name] of [
