@@ -1,11 +1,11 @@
 {
   "name": "Fear & Greed France",
   "version": "3.0",
-  "generated_at": "2026-09-22T18:34:25.180Z",
+  "generated_at": "2026-09-22T18:50:33.580Z",
   "market_date": "2026-09-22",
-  "score": 35.9,
+  "score": 34.1,
   "label": "Peur",
-  "coverage_pct": 80,
+  "coverage_pct": 90,
   "minimum_coverage_pct": 70,
   "methodology": "Percentiles historiques et breadth CAC 40 ; poids disponibles renormalisés.",
   "components": {
@@ -36,7 +36,7 @@
       "score": 49.5,
       "metrics": {
         "usable": 40,
-        "avgPosition": 49.53213046271239
+        "avgPosition": 49.53213083254995
       }
     },
     "volatility": {
@@ -67,8 +67,11 @@
     "risk": {
       "name": "Actions vs or",
       "weight": 10,
-      "score": null,
-      "metrics": null
+      "score": 20,
+      "metrics": {
+        "relative60": -0.10474927932394795,
+        "alignedDays": 1281
+      }
     },
     "news": {
       "name": "Sentiment médias",

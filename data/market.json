@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T18:34:25.180Z",
+  "generated_at": "2026-09-22T18:50:33.580Z",
   "market_date": "2026-09-22",
   "assets": {
     "cac": {
@@ -19,9 +19,9 @@
     "gold": {
       "symbol": "GC=F",
       "currency": "USD",
-      "close": 4393.5,
+      "close": 4389.2001953125,
       "previous_close": 4383.89990234375,
-      "change_1d": 0.0021898532973159135
+      "change_1d": 0.0012090360379615195
     },
     "fx": {
       "symbol": "EURUSD=X",
