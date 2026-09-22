@@ -2,6 +2,10 @@ name: Update Fear & Greed France
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update.js"
+      - ".github/workflows/update.yml"
   schedule:
     - cron: "40 16,17 * * 1-5"
 
@@ -22,7 +26,7 @@ jobs:
         run: |
           HOUR=$(TZ=Europe/Paris date +%H)
           echo "hour=$HOUR" >> "$GITHUB_OUTPUT"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$HOUR" = "18" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "push" ] || [ "$HOUR" = "18" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
