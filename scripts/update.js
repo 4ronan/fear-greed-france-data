@@ -244,33 +244,66 @@ async function gdeltScore(){
     const url="https://api.gdeltproject.org/api/v2/doc/doc?query="+encodeURIComponent(q)+"&mode=timelinetone&format=json&timespan=3months";
     for(let attempt=1;attempt<=2;attempt++){
       try{
-        const j=await fetchJSON(url,20000),vals=[];
+        const j=await fetchJSON(url,12000),vals=[];
         const walk=o=>{
           if(Array.isArray(o)){o.forEach(walk);return;}
           if(o&&typeof o==="object"){
             if(Number.isFinite(o.value))vals.push(o.value);
-            if(Array.isArray(o.data)){
-              for(const item of o.data){
-                if(Array.isArray(item)&&Number.isFinite(item[item.length-1])) vals.push(item[item.length-1]);
-              }
-            }
-            Object.entries(o).forEach(([k,v])=>{if(k!=="value"&&k!=="data")walk(v);});
+            Object.entries(o).forEach(([k,v])=>{if(k!=="value")walk(v);});
           }
         };
         walk(j?.timeline??j);
         const clean=vals.filter(x=>Number.isFinite(x)&&x>-100&&x<100);
         if(clean.length>=10){
           const cur=last(clean);
-          return {score:percentile(clean,cur),metrics:{tone:cur,points:clean.length,query:q}};
+          return {score:percentile(clean,cur),metrics:{tone:cur,points:clean.length,source:"GDELT"}};
         }
         throw new Error("Série GDELT insuffisante");
-      }catch(e){
-        lastError=e;
-        await sleep(2000*attempt);
-      }
+      }catch(e){ lastError=e; await sleep(1200*attempt); }
     }
   }
   throw lastError||new Error("GDELT indisponible");
+}
+
+function decodeXml(s){
+  return s
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,"$1")
+    .replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'")
+    .replace(/&lt;/g,"<").replace(/&gt;/g,">");
+}
+
+async function googleNewsSentiment(){
+  const query='("CAC 40" OR "Bourse de Paris" OR "économie française" OR "marchés financiers")';
+  const url="https://news.google.com/rss/search?q="+encodeURIComponent(query)+"&hl=fr&gl=FR&ceid=FR:fr";
+  const xml=await fetchText(url,15000);
+  const titles=[...xml.matchAll(/<item>[\s\S]*?<title>([\s\S]*?)<\/title>[\s\S]*?<\/item>/gi)]
+    .map(m=>decodeXml(m[1]).replace(/<[^>]+>/g," ").toLowerCase())
+    .filter(Boolean)
+    .slice(0,100);
+  if(titles.length<10) throw new Error("Google News : couverture insuffisante");
+
+  const positive=["hausse","rebond","progression","gagne","gagné","croissance","record","optimisme","rassure","solide","amélioration","ameliore","surperformance","bénéfice","benefice","profite","accélère","accelere","dynamique","positif"];
+  const negative=["baisse","chute","recul","perd","perte","crainte","inquiétude","inquietude","risque","tension","crise","ralentissement","dégradation","degradation","faible","pression","déficit","deficit","récession","recession","négatif","negatif"];
+
+  let sum=0, matched=0;
+  for(const title of titles){
+    let raw=0;
+    for(const w of positive) if(title.includes(w)) raw++;
+    for(const w of negative) if(title.includes(w)) raw--;
+    if(raw!==0) matched++;
+    sum += Math.tanh(raw/2);
+  }
+  const avg=sum/titles.length;
+  const score=Math.max(0,Math.min(100,50+avg*50));
+  return {score,metrics:{source:"Google News RSS",articles:titles.length,matched,averageTone:avg}};
+}
+
+async function mediaSentiment(){
+  try{return await gdeltScore();}
+  catch(gdeltError){
+    console.error("GDELT",gdeltError.message,"— repli Google News RSS");
+    return await googleNewsSentiment();
+  }
 }
 
 function readJSON(file,fallback){
