@@ -46,6 +46,10 @@ jobs:
         if: steps.paris.outputs.run == 'true'
         run: node scripts/update.js
 
+      - name: Backfill 2026 history
+        if: steps.paris.outputs.run == 'true'
+        run: node scripts/backfill.js
+
       - name: Commit refreshed JSON
         if: steps.paris.outputs.run == 'true'
         shell: bash
