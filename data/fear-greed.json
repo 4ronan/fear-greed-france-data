@@ -1,11 +1,90 @@
 {
   "name": "Fear & Greed France",
   "version": "3.0",
-  "generated_at": null,
-  "market_date": null,
-  "score": null,
-  "label": "Initialisation",
-  "coverage_pct": 0,
+  "generated_at": "2026-09-22T18:34:25.180Z",
+  "market_date": "2026-09-22",
+  "score": 35.9,
+  "label": "Peur",
+  "coverage_pct": 80,
   "minimum_coverage_pct": 70,
-  "components": {}
+  "methodology": "Percentiles historiques et breadth CAC 40 ; poids disponibles renormalisés.",
+  "components": {
+    "momentum": {
+      "name": "Momentum CAC 40",
+      "weight": 15,
+      "score": 24.1,
+      "metrics": {
+        "ratio": 0.9840806328563454,
+        "r20": -0.03368684620379159,
+        "r60": -0.029638311228180947
+      }
+    },
+    "breadth": {
+      "name": "Breadth CAC 40",
+      "weight": 20,
+      "score": 36.7,
+      "metrics": {
+        "usable": 40,
+        "above50": 14,
+        "above200": 21,
+        "pos20": 9
+      }
+    },
+    "strength": {
+      "name": "Force du marché",
+      "weight": 10,
+      "score": 49.5,
+      "metrics": {
+        "usable": 40,
+        "avgPosition": 49.53213046271239
+      }
+    },
+    "volatility": {
+      "name": "Volatilité",
+      "weight": 15,
+      "score": 52.9,
+      "metrics": {
+        "vol": 0.13386951910861034,
+        "percentile": 47.1031746031746
+      }
+    },
+    "drawdown": {
+      "name": "Drawdown",
+      "weight": 10,
+      "score": 31.8,
+      "metrics": {
+        "drawdown": -0.06545016454114538
+      }
+    },
+    "relative": {
+      "name": "France vs Europe",
+      "weight": 10,
+      "score": 17.2,
+      "metrics": {
+        "relative60": -0.029121330447224203
+      }
+    },
+    "risk": {
+      "name": "Actions vs or",
+      "weight": 10,
+      "score": null,
+      "metrics": null
+    },
+    "news": {
+      "name": "Sentiment médias",
+      "weight": 10,
+      "score": null,
+      "metrics": null
+    }
+  },
+  "constituents": {
+    "expected": 40,
+    "usable": 40,
+    "failed": 0,
+    "failures": []
+  },
+  "sources": {
+    "yahoo": "Endpoint Chart non officiel ; disponibilité non garantie.",
+    "gdelt": "error"
+  }
 }

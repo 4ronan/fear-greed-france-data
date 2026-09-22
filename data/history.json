@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "date": "2026-09-22",
+    "score": 35.9,
+    "label": "Peur",
+    "coverage_pct": 80,
+    "components": {
+      "momentum": 24.1,
+      "breadth": 36.7,
+      "strength": 49.5,
+      "volatility": 52.9,
+      "drawdown": 31.8,
+      "relative": 17.2,
+      "risk": null,
+      "news": null
+    }
+  }
+]
