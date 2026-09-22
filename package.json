@@ -1,0 +1,11 @@
+{
+  "name": "fear-greed-france-data",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "update": "node scripts/update.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
