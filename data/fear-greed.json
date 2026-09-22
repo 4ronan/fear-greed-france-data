@@ -1,9 +1,9 @@
 {
   "name": "Fear & Greed France",
   "version": "3.0",
-  "generated_at": "2026-09-22T18:50:33.580Z",
+  "generated_at": "2026-09-22T18:56:52.841Z",
   "market_date": "2026-09-22",
-  "score": 34.1,
+  "score": 34.2,
   "label": "Peur",
   "coverage_pct": 90,
   "minimum_coverage_pct": 70,
@@ -36,7 +36,7 @@
       "score": 49.5,
       "metrics": {
         "usable": 40,
-        "avgPosition": 49.53213083254995
+        "avgPosition": 49.53213085366465
       }
     },
     "volatility": {
@@ -67,9 +67,9 @@
     "risk": {
       "name": "Actions vs or",
       "weight": 10,
-      "score": 20,
+      "score": 20.1,
       "metrics": {
-        "relative60": -0.10474927932394795,
+        "relative60": -0.10450403093313587,
         "alignedDays": 1281
       }
     },

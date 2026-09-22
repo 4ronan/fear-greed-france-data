@@ -1,7 +1,2951 @@
 [
   {
+    "date": "2026-01-02",
+    "score": 70.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 62.5,
+      "breadth": 70,
+      "strength": 65.2,
+      "volatility": 97,
+      "drawdown": 86.3,
+      "relative": 57.4,
+      "risk": 48.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "score": 66.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 61.4,
+      "breadth": 76.7,
+      "strength": 65.9,
+      "volatility": 96.9,
+      "drawdown": 89,
+      "relative": 12.8,
+      "risk": 40.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "score": 64.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 62.4,
+      "breadth": 70.8,
+      "strength": 66.2,
+      "volatility": 97.3,
+      "drawdown": 93.1,
+      "relative": 12.5,
+      "risk": 30.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "score": 66.4,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 64.9,
+      "breadth": 70,
+      "strength": 66.3,
+      "volatility": 97.5,
+      "drawdown": 92.4,
+      "relative": 12.2,
+      "risk": 42.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "score": 70,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 65.7,
+      "breadth": 70.8,
+      "strength": 66.6,
+      "volatility": 97.7,
+      "drawdown": 94.2,
+      "relative": 29.7,
+      "risk": 53,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "score": 73.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 76,
+      "breadth": 80,
+      "strength": 68.3,
+      "volatility": 94.7,
+      "drawdown": 97.8,
+      "relative": 23.8,
+      "risk": 56.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "score": 68.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 73.4,
+      "breadth": 77.5,
+      "strength": 67.6,
+      "volatility": 95.1,
+      "drawdown": 95.2,
+      "relative": 6,
+      "risk": 42.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "score": 65.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 68.3,
+      "breadth": 69.2,
+      "strength": 65.5,
+      "volatility": 95.5,
+      "drawdown": 94,
+      "relative": 2.2,
+      "risk": 45.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "score": 63.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 67.8,
+      "breadth": 66.7,
+      "strength": 65.3,
+      "volatility": 95.5,
+      "drawdown": 90.8,
+      "relative": 1.1,
+      "risk": 33.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "score": 63.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 63.7,
+      "breadth": 65.8,
+      "strength": 65.1,
+      "volatility": 95.9,
+      "drawdown": 88.1,
+      "relative": 1.3,
+      "risk": 47.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "score": 57,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 58.9,
+      "breadth": 59.2,
+      "strength": 63.3,
+      "volatility": 94.7,
+      "drawdown": 81.4,
+      "relative": 0.4,
+      "risk": 18.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-19",
+    "score": 47.8,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 46.8,
+      "breadth": 50.8,
+      "strength": 59.5,
+      "volatility": 82.8,
+      "drawdown": 63.2,
+      "relative": 0.2,
+      "risk": 11.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-20",
+    "score": 43.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 39.3,
+      "breadth": 42.5,
+      "strength": 57.8,
+      "volatility": 83.8,
+      "drawdown": 57.8,
+      "relative": 0.5,
+      "risk": 7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-21",
+    "score": 43.9,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 40,
+      "breadth": 43.3,
+      "strength": 57.7,
+      "volatility": 83.7,
+      "drawdown": 58.8,
+      "relative": 0.8,
+      "risk": 5.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-22",
+    "score": 48.3,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 48,
+      "breadth": 55.8,
+      "strength": 61.1,
+      "volatility": 79.9,
+      "drawdown": 67.2,
+      "relative": 1.1,
+      "risk": 1.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-23",
+    "score": 48.4,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 48.6,
+      "breadth": 56.7,
+      "strength": 60.7,
+      "volatility": 80.1,
+      "drawdown": 66.1,
+      "relative": 1.4,
+      "risk": 0.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-26",
+    "score": 48.6,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 47.7,
+      "breadth": 59.2,
+      "strength": 60.2,
+      "volatility": 79.9,
+      "drawdown": 65,
+      "relative": 1.4,
+      "risk": 0.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-27",
+    "score": 49.1,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 50.6,
+      "breadth": 57.5,
+      "strength": 60.4,
+      "volatility": 79.6,
+      "drawdown": 68.1,
+      "relative": 1.5,
+      "risk": 1.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-28",
+    "score": 45.2,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 40.5,
+      "breadth": 55.8,
+      "strength": 59.6,
+      "volatility": 77.2,
+      "drawdown": 57.8,
+      "relative": 1.1,
+      "risk": 0.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-29",
+    "score": 45.5,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 42.1,
+      "breadth": 54.2,
+      "strength": 58.3,
+      "volatility": 77.4,
+      "drawdown": 59,
+      "relative": 4.5,
+      "risk": 0.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-01-30",
+    "score": 48.3,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 46.6,
+      "breadth": 55,
+      "strength": 59.7,
+      "volatility": 76.2,
+      "drawdown": 64.7,
+      "relative": 4.1,
+      "risk": 12.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "score": 51.4,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 50.9,
+      "breadth": 59.2,
+      "strength": 62,
+      "volatility": 73.2,
+      "drawdown": 72,
+      "relative": 3.4,
+      "risk": 21,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-03",
+    "score": 49.8,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 52.3,
+      "breadth": 56.7,
+      "strength": 61.2,
+      "volatility": 74,
+      "drawdown": 71.8,
+      "relative": 5.5,
+      "risk": 7.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-04",
+    "score": 53.4,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 60.5,
+      "breadth": 60,
+      "strength": 64.4,
+      "volatility": 68.8,
+      "drawdown": 82.3,
+      "relative": 10.5,
+      "risk": 9.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-05",
+    "score": 54.1,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 55.2,
+      "breadth": 59.2,
+      "strength": 63.3,
+      "volatility": 68.3,
+      "drawdown": 79.4,
+      "relative": 25.6,
+      "risk": 15,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-06",
+    "score": 54.1,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 51.6,
+      "breadth": 63.3,
+      "strength": 63.5,
+      "volatility": 79.1,
+      "drawdown": 83.5,
+      "relative": 9.7,
+      "risk": 7.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-09",
+    "score": 54.1,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 53.7,
+      "breadth": 60.8,
+      "strength": 64.9,
+      "volatility": 76.5,
+      "drawdown": 89.5,
+      "relative": 7.7,
+      "risk": 8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-10",
+    "score": 55.4,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 54.5,
+      "breadth": 65,
+      "strength": 65.7,
+      "volatility": 76.6,
+      "drawdown": 90.1,
+      "relative": 5.2,
+      "risk": 10.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-11",
+    "score": 53.8,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 55.3,
+      "breadth": 62.5,
+      "strength": 63.5,
+      "volatility": 76.7,
+      "drawdown": 88.2,
+      "relative": 4.9,
+      "risk": 5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-12",
+    "score": 55.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 59.6,
+      "breadth": 60.8,
+      "strength": 65.1,
+      "volatility": 76.2,
+      "drawdown": 92.9,
+      "relative": 7.4,
+      "risk": 10.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-13",
+    "score": 55.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 62.8,
+      "breadth": 60,
+      "strength": 64.4,
+      "volatility": 78.6,
+      "drawdown": 87.6,
+      "relative": 7.9,
+      "risk": 9.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-16",
+    "score": 60,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 69.2,
+      "breadth": 60.8,
+      "strength": 64.2,
+      "volatility": 93,
+      "drawdown": 88.2,
+      "relative": 11.5,
+      "risk": 11.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-17",
+    "score": 63.8,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 72.8,
+      "breadth": 66.7,
+      "strength": 65.1,
+      "volatility": 94,
+      "drawdown": 95.5,
+      "relative": 11.3,
+      "risk": 18.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-18",
+    "score": 63.5,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 76.6,
+      "breadth": 67.5,
+      "strength": 65.8,
+      "volatility": 93.2,
+      "drawdown": 97.8,
+      "relative": 2.7,
+      "risk": 16,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-19",
+    "score": 62.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 72.9,
+      "breadth": 67.5,
+      "strength": 65.5,
+      "volatility": 93.9,
+      "drawdown": 91.1,
+      "relative": 6.8,
+      "risk": 17,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-20",
+    "score": 66.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 79.9,
+      "breadth": 75,
+      "strength": 68.8,
+      "volatility": 90.7,
+      "drawdown": 97.7,
+      "relative": 8,
+      "risk": 16,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-23",
+    "score": 63.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 77.2,
+      "breadth": 69.2,
+      "strength": 67.5,
+      "volatility": 90.4,
+      "drawdown": 93.3,
+      "relative": 14.2,
+      "risk": 8.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-24",
+    "score": 65.1,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 78,
+      "breadth": 70.8,
+      "strength": 68.4,
+      "volatility": 90.4,
+      "drawdown": 97.7,
+      "relative": 16,
+      "risk": 9.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-25",
+    "score": 66.5,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 81.4,
+      "breadth": 73.3,
+      "strength": 68.9,
+      "volatility": 94.5,
+      "drawdown": 97.6,
+      "relative": 9.3,
+      "risk": 12,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-26",
+    "score": 70.8,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 84.8,
+      "breadth": 75,
+      "strength": 70.3,
+      "volatility": 94.3,
+      "drawdown": 97.6,
+      "relative": 30.9,
+      "risk": 20,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-02-27",
+    "score": 69.4,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 82.2,
+      "breadth": 74.2,
+      "strength": 70,
+      "volatility": 93.2,
+      "drawdown": 88.4,
+      "relative": 42.7,
+      "risk": 11.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "score": 56.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 68.1,
+      "breadth": 63.3,
+      "strength": 63.6,
+      "volatility": 66.9,
+      "drawdown": 64.7,
+      "relative": 47.3,
+      "risk": 5.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-03",
+    "score": 37.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 39.6,
+      "breadth": 48.3,
+      "strength": 54.6,
+      "volatility": 25,
+      "drawdown": 36.2,
+      "relative": 49.4,
+      "risk": 4.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-04",
+    "score": 37.9,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 42,
+      "breadth": 50.8,
+      "strength": 56.8,
+      "volatility": 25.6,
+      "drawdown": 40.4,
+      "relative": 36.4,
+      "risk": 4.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "score": 33.3,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 32.1,
+      "breadth": 45,
+      "strength": 53.1,
+      "volatility": 22.9,
+      "drawdown": 32.1,
+      "relative": 38.8,
+      "risk": 3.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "score": 33.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 28.3,
+      "breadth": 43.3,
+      "strength": 51.3,
+      "volatility": 23.1,
+      "drawdown": 30,
+      "relative": 54.9,
+      "risk": 2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "score": 29.3,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 22.8,
+      "breadth": 34.2,
+      "strength": 48.6,
+      "volatility": 23.2,
+      "drawdown": 24.2,
+      "relative": 52.1,
+      "risk": 1.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "score": 31.9,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 30.9,
+      "breadth": 43.3,
+      "strength": 52.6,
+      "volatility": 18.7,
+      "drawdown": 33.2,
+      "relative": 38.3,
+      "risk": 2.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "score": 31.7,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 30.3,
+      "breadth": 41.7,
+      "strength": 51.4,
+      "volatility": 18.7,
+      "drawdown": 31.9,
+      "relative": 41.9,
+      "risk": 3.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-12",
+    "score": 29.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 24.6,
+      "breadth": 39.2,
+      "strength": 50.6,
+      "volatility": 18.7,
+      "drawdown": 29.3,
+      "relative": 40.9,
+      "risk": 2.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-13",
+    "score": 26.1,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 20.4,
+      "breadth": 38.3,
+      "strength": 49.3,
+      "volatility": 18.5,
+      "drawdown": 24.1,
+      "relative": 23,
+      "risk": 3.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-16",
+    "score": 26.3,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 22.4,
+      "breadth": 39.2,
+      "strength": 49.7,
+      "volatility": 18.3,
+      "drawdown": 26.5,
+      "relative": 15.1,
+      "risk": 5.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-17",
+    "score": 27.5,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 22.9,
+      "breadth": 40.8,
+      "strength": 51,
+      "volatility": 18.6,
+      "drawdown": 28.7,
+      "relative": 18.6,
+      "risk": 5.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-18",
+    "score": 29.2,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 21.5,
+      "breadth": 37.5,
+      "strength": 49.7,
+      "volatility": 19.4,
+      "drawdown": 28.4,
+      "relative": 37.5,
+      "risk": 11,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-19",
+    "score": 25.8,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 13.1,
+      "breadth": 25.8,
+      "strength": 44.1,
+      "volatility": 17.1,
+      "drawdown": 17.3,
+      "relative": 41.8,
+      "risk": 32.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-20",
+    "score": 24,
+    "label": "Peur extrême",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 7.3,
+      "breadth": 21.7,
+      "strength": 40.7,
+      "volatility": 18.2,
+      "drawdown": 10.2,
+      "relative": 49.9,
+      "risk": 33.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-23",
+    "score": 25.1,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 9.4,
+      "breadth": 20.8,
+      "strength": 41.7,
+      "volatility": 17,
+      "drawdown": 12.6,
+      "relative": 41.1,
+      "risk": 49.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-24",
+    "score": 24.7,
+    "label": "Peur extrême",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 10.1,
+      "breadth": 21.7,
+      "strength": 43.2,
+      "volatility": 17.1,
+      "drawdown": 13.2,
+      "relative": 42,
+      "risk": 39.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-25",
+    "score": 26.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 14,
+      "breadth": 25.8,
+      "strength": 46.4,
+      "volatility": 15.6,
+      "drawdown": 20.2,
+      "relative": 45.2,
+      "risk": 32,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-26",
+    "score": 27.2,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 10.6,
+      "breadth": 24.2,
+      "strength": 44.4,
+      "volatility": 16.2,
+      "drawdown": 15.2,
+      "relative": 56.2,
+      "risk": 40.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-27",
+    "score": 22.4,
+    "label": "Peur extrême",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 6.8,
+      "breadth": 20.8,
+      "strength": 42.7,
+      "volatility": 16.2,
+      "drawdown": 11.4,
+      "relative": 51.3,
+      "risk": 19.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "score": 29.3,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 10.1,
+      "breadth": 24.2,
+      "strength": 45.5,
+      "volatility": 17.2,
+      "drawdown": 15.8,
+      "relative": 81.9,
+      "risk": 31.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-03-31",
+    "score": 33.7,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 16,
+      "breadth": 31.7,
+      "strength": 47.5,
+      "volatility": 27.6,
+      "drawdown": 18.1,
+      "relative": 79.9,
+      "risk": 29.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-01",
+    "score": 36.5,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 27.5,
+      "breadth": 40.8,
+      "strength": 53.6,
+      "volatility": 22.1,
+      "drawdown": 30.1,
+      "relative": 68.7,
+      "risk": 20.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "score": 39.7,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 29.9,
+      "breadth": 45.8,
+      "strength": 53.8,
+      "volatility": 25.8,
+      "drawdown": 28.6,
+      "relative": 69,
+      "risk": 30.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "score": 38.1,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 24.7,
+      "breadth": 42.5,
+      "strength": 52.1,
+      "volatility": 25.8,
+      "drawdown": 24.4,
+      "relative": 75,
+      "risk": 31,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "score": 53.1,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 58.4,
+      "breadth": 69.2,
+      "strength": 61,
+      "volatility": 9.6,
+      "drawdown": 51.7,
+      "relative": 73.6,
+      "risk": 51.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-09",
+    "score": 50.6,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 53.2,
+      "breadth": 61.7,
+      "strength": 59.8,
+      "volatility": 11.7,
+      "drawdown": 49.3,
+      "relative": 79.4,
+      "risk": 46,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-10",
+    "score": 51.4,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 55.4,
+      "breadth": 63.3,
+      "strength": 59.3,
+      "volatility": 11.8,
+      "drawdown": 51,
+      "relative": 71.7,
+      "risk": 53.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "score": 52.5,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 55.5,
+      "breadth": 62.5,
+      "strength": 58,
+      "volatility": 12.3,
+      "drawdown": 48.5,
+      "relative": 84.5,
+      "risk": 55.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-14",
+    "score": 58.8,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 66,
+      "breadth": 73.3,
+      "strength": 61.9,
+      "volatility": 13,
+      "drawdown": 59.7,
+      "relative": 87,
+      "risk": 55.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "score": 58.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 64.5,
+      "breadth": 74.2,
+      "strength": 61.5,
+      "volatility": 12.2,
+      "drawdown": 53.1,
+      "relative": 88.5,
+      "risk": 60.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "score": 59.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 63.8,
+      "breadth": 72.5,
+      "strength": 61.4,
+      "volatility": 12.1,
+      "drawdown": 51.7,
+      "relative": 88.6,
+      "risk": 78,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "score": 65.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 75.7,
+      "breadth": 77.5,
+      "strength": 65.8,
+      "volatility": 9.3,
+      "drawdown": 70.2,
+      "relative": 84.7,
+      "risk": 83.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-20",
+    "score": 64.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 70.2,
+      "breadth": 77.5,
+      "strength": 63,
+      "volatility": 13,
+      "drawdown": 60.1,
+      "relative": 88.8,
+      "risk": 86.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-21",
+    "score": 61.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 65.4,
+      "breadth": 74.2,
+      "strength": 59.6,
+      "volatility": 15,
+      "drawdown": 48.2,
+      "relative": 85,
+      "risk": 90.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "score": 56.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 59.3,
+      "breadth": 66.7,
+      "strength": 54.3,
+      "volatility": 14.2,
+      "drawdown": 40.9,
+      "relative": 81.7,
+      "risk": 88.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-23",
+    "score": 60.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 63.7,
+      "breadth": 68.3,
+      "strength": 55.8,
+      "volatility": 13.9,
+      "drawdown": 47.6,
+      "relative": 95.2,
+      "risk": 91.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-24",
+    "score": 57.5,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 58.3,
+      "breadth": 63.3,
+      "strength": 53.3,
+      "volatility": 13.9,
+      "drawdown": 41.1,
+      "relative": 91.2,
+      "risk": 96.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "score": 56.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 58.8,
+      "breadth": 60.8,
+      "strength": 52.2,
+      "volatility": 15.2,
+      "drawdown": 39.4,
+      "relative": 84.6,
+      "risk": 98.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-28",
+    "score": 52.6,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 56.4,
+      "breadth": 61.7,
+      "strength": 51.1,
+      "volatility": 15.5,
+      "drawdown": 37.2,
+      "relative": 86.9,
+      "risk": 66.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-29",
+    "score": 50.1,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 50.6,
+      "breadth": 57.5,
+      "strength": 49.2,
+      "volatility": 15.6,
+      "drawdown": 34.8,
+      "relative": 90.4,
+      "risk": 61.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "score": 52.7,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 52.8,
+      "breadth": 57.5,
+      "strength": 51.3,
+      "volatility": 15.7,
+      "drawdown": 38,
+      "relative": 80.7,
+      "risk": 86.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-04",
+    "score": 43.8,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 32.7,
+      "breadth": 47.5,
+      "strength": 47.3,
+      "volatility": 16,
+      "drawdown": 29.1,
+      "relative": 65.5,
+      "risk": 84.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-05",
+    "score": 45.6,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 41.7,
+      "breadth": 55,
+      "strength": 50.6,
+      "volatility": 15.2,
+      "drawdown": 34.2,
+      "relative": 47.6,
+      "risk": 83,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-06",
+    "score": 57,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 63.7,
+      "breadth": 69.2,
+      "strength": 58.6,
+      "volatility": 8.7,
+      "drawdown": 56.2,
+      "relative": 62.6,
+      "risk": 89,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-07",
+    "score": 51.3,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 40.8,
+      "breadth": 55.8,
+      "strength": 55,
+      "volatility": 24,
+      "drawdown": 44.7,
+      "relative": 65.2,
+      "risk": 87.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-08",
+    "score": 45.2,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 32.3,
+      "breadth": 50.8,
+      "strength": 51.6,
+      "volatility": 22.6,
+      "drawdown": 37.8,
+      "relative": 60.5,
+      "risk": 72.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-11",
+    "score": 44.1,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 27.5,
+      "breadth": 51.7,
+      "strength": 50.8,
+      "volatility": 22.2,
+      "drawdown": 33.8,
+      "relative": 53.8,
+      "risk": 80.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-12",
+    "score": 39.2,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 22.1,
+      "breadth": 47.5,
+      "strength": 48.4,
+      "volatility": 21.6,
+      "drawdown": 29.3,
+      "relative": 51.2,
+      "risk": 63.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "score": 40.1,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 22.7,
+      "breadth": 49.2,
+      "strength": 48.7,
+      "volatility": 23.4,
+      "drawdown": 31.5,
+      "relative": 40.9,
+      "risk": 72.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-14",
+    "score": 43.9,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 29.6,
+      "breadth": 50,
+      "strength": 51.2,
+      "volatility": 22,
+      "drawdown": 35.5,
+      "relative": 52.9,
+      "risk": 77.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-15",
+    "score": 35.5,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 19,
+      "breadth": 40.8,
+      "strength": 46.7,
+      "volatility": 20.5,
+      "drawdown": 27.3,
+      "relative": 38.3,
+      "risk": 66.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "score": 39.7,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 17.6,
+      "breadth": 44.2,
+      "strength": 49.2,
+      "volatility": 25.9,
+      "drawdown": 30.3,
+      "relative": 49.2,
+      "risk": 75.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "score": 40,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 19.4,
+      "breadth": 44.2,
+      "strength": 49.6,
+      "volatility": 27.1,
+      "drawdown": 29.8,
+      "relative": 41.5,
+      "risk": 81.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-20",
+    "score": 44.7,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 30.1,
+      "breadth": 57.5,
+      "strength": 54.3,
+      "volatility": 23,
+      "drawdown": 38.6,
+      "relative": 26.5,
+      "risk": 88,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "score": 44.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 31.3,
+      "breadth": 57.5,
+      "strength": 53,
+      "volatility": 24.1,
+      "drawdown": 36,
+      "relative": 22.1,
+      "risk": 92.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-22",
+    "score": 44.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 30.4,
+      "breadth": 61.7,
+      "strength": 53.9,
+      "volatility": 25.6,
+      "drawdown": 38.7,
+      "relative": 9.4,
+      "risk": 92.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "score": 55.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 45.4,
+      "breadth": 72.5,
+      "strength": 58.6,
+      "volatility": 21.6,
+      "drawdown": 51.6,
+      "relative": 50.4,
+      "risk": 96.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-26",
+    "score": 46.8,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 36.7,
+      "breadth": 68.3,
+      "strength": 55.9,
+      "volatility": 21,
+      "drawdown": 42.7,
+      "relative": 6.6,
+      "risk": 92.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-27",
+    "score": 50.1,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 42.6,
+      "breadth": 72.5,
+      "strength": 58.8,
+      "volatility": 21.1,
+      "drawdown": 46.1,
+      "relative": 8.6,
+      "risk": 97.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "score": 49.2,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 45.6,
+      "breadth": 67.5,
+      "strength": 57.2,
+      "volatility": 21.3,
+      "drawdown": 43.8,
+      "relative": 7.6,
+      "risk": 99.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "score": 49.7,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 50.8,
+      "breadth": 66.7,
+      "strength": 57.7,
+      "volatility": 21.4,
+      "drawdown": 43.3,
+      "relative": 6.6,
+      "risk": 98.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "score": 51.2,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 51.3,
+      "breadth": 68.3,
+      "strength": 55.7,
+      "volatility": 25.8,
+      "drawdown": 40.5,
+      "relative": 13.3,
+      "risk": 99.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "score": 50.2,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 56.6,
+      "breadth": 58.3,
+      "strength": 55.1,
+      "volatility": 27,
+      "drawdown": 46.5,
+      "relative": 8.3,
+      "risk": 99.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "score": 47.5,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 42.6,
+      "breadth": 48.3,
+      "strength": 53.4,
+      "volatility": 44.2,
+      "drawdown": 40.9,
+      "relative": 7,
+      "risk": 99.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "score": 55.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 57.4,
+      "breadth": 65,
+      "strength": 57.4,
+      "volatility": 44.2,
+      "drawdown": 50.3,
+      "relative": 13.3,
+      "risk": 100,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "score": 59.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 55.5,
+      "breadth": 67.5,
+      "strength": 57.3,
+      "volatility": 48.7,
+      "drawdown": 47.7,
+      "relative": 37.5,
+      "risk": 100,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "score": 57.1,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 55.8,
+      "breadth": 66.7,
+      "strength": 56.5,
+      "volatility": 50.3,
+      "drawdown": 45.1,
+      "relative": 19.8,
+      "risk": 99.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "score": 59.1,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 60.5,
+      "breadth": 66.7,
+      "strength": 56.9,
+      "volatility": 54.8,
+      "drawdown": 46,
+      "relative": 23.3,
+      "risk": 100,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "score": 58.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 57.4,
+      "breadth": 64.2,
+      "strength": 56.4,
+      "volatility": 53.3,
+      "drawdown": 42,
+      "relative": 35.5,
+      "risk": 100,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "score": 58.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 57.3,
+      "breadth": 64.2,
+      "strength": 56.9,
+      "volatility": 55.9,
+      "drawdown": 45.4,
+      "relative": 30,
+      "risk": 100,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "score": 65,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 73.5,
+      "breadth": 70,
+      "strength": 62.4,
+      "volatility": 57.3,
+      "drawdown": 63.3,
+      "relative": 23.5,
+      "risk": 99.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "score": 65.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 74.9,
+      "breadth": 74.2,
+      "strength": 63.4,
+      "volatility": 57.4,
+      "drawdown": 66.4,
+      "relative": 11,
+      "risk": 99.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "score": 67.5,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 82.5,
+      "breadth": 73.3,
+      "strength": 64.3,
+      "volatility": 57,
+      "drawdown": 73.8,
+      "relative": 14,
+      "risk": 99.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-17",
+    "score": 66.1,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 80.8,
+      "breadth": 67.5,
+      "strength": 63.6,
+      "volatility": 66.1,
+      "drawdown": 72.5,
+      "relative": 4.9,
+      "risk": 98.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "score": 68.1,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 82.6,
+      "breadth": 70.8,
+      "strength": 63.9,
+      "volatility": 67.2,
+      "drawdown": 76.9,
+      "relative": 8.5,
+      "risk": 97.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "score": 65.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 78.8,
+      "breadth": 69.2,
+      "strength": 62.7,
+      "volatility": 64.9,
+      "drawdown": 70.7,
+      "relative": 7.8,
+      "risk": 96.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "score": 64.5,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 69.8,
+      "breadth": 65,
+      "strength": 61.9,
+      "volatility": 76,
+      "drawdown": 67.8,
+      "relative": 3.9,
+      "risk": 98.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "score": 64.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 69.5,
+      "breadth": 65,
+      "strength": 61,
+      "volatility": 80.1,
+      "drawdown": 62,
+      "relative": 4.3,
+      "risk": 96.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "score": 66.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 73.6,
+      "breadth": 66.7,
+      "strength": 62.7,
+      "volatility": 79.6,
+      "drawdown": 66.4,
+      "relative": 8.1,
+      "risk": 99.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "score": 68.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 76.5,
+      "breadth": 70,
+      "strength": 63.4,
+      "volatility": 79.3,
+      "drawdown": 72.5,
+      "relative": 4.5,
+      "risk": 99.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "score": 65.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 71.7,
+      "breadth": 68.3,
+      "strength": 62.4,
+      "volatility": 76.4,
+      "drawdown": 66,
+      "relative": 5.1,
+      "risk": 99.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "score": 65.5,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 67.8,
+      "breadth": 68.3,
+      "strength": 61.6,
+      "volatility": 78.4,
+      "drawdown": 63.8,
+      "relative": 8.1,
+      "risk": 99.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "score": 65.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 69.1,
+      "breadth": 65.8,
+      "strength": 62.5,
+      "volatility": 80.1,
+      "drawdown": 68.5,
+      "relative": 1.3,
+      "risk": 99.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "score": 62.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 66.3,
+      "breadth": 62.5,
+      "strength": 60.3,
+      "volatility": 79.2,
+      "drawdown": 61.3,
+      "relative": 0.7,
+      "risk": 98.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "score": 66.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 67.6,
+      "breadth": 71.7,
+      "strength": 64.9,
+      "volatility": 71.4,
+      "drawdown": 77.9,
+      "relative": 2.4,
+      "risk": 98.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "score": 67.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 71.2,
+      "breadth": 71.7,
+      "strength": 65.9,
+      "volatility": 72.1,
+      "drawdown": 81.3,
+      "relative": 1.3,
+      "risk": 98.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "score": 65.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 69.2,
+      "breadth": 66.7,
+      "strength": 64.3,
+      "volatility": 71.4,
+      "drawdown": 78.6,
+      "relative": 2,
+      "risk": 98.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "score": 64.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 66.3,
+      "breadth": 69.2,
+      "strength": 64.2,
+      "volatility": 70,
+      "drawdown": 72.8,
+      "relative": 4,
+      "risk": 97.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-08",
+    "score": 51.8,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 47.4,
+      "breadth": 56.7,
+      "strength": 57.2,
+      "volatility": 48.7,
+      "drawdown": 50.8,
+      "relative": 3.6,
+      "risk": 97.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-09",
+    "score": 54.3,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 54.8,
+      "breadth": 59.2,
+      "strength": 59,
+      "volatility": 46.6,
+      "drawdown": 59.8,
+      "relative": 2.1,
+      "risk": 97,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "score": 55.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 50.3,
+      "breadth": 58.3,
+      "strength": 60.1,
+      "volatility": 58.7,
+      "drawdown": 61.4,
+      "relative": 3.3,
+      "risk": 97.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-13",
+    "score": 56.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 47.7,
+      "breadth": 59.2,
+      "strength": 60.9,
+      "volatility": 59,
+      "drawdown": 63.5,
+      "relative": 5.1,
+      "risk": 98.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-14",
+    "score": 56.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 48,
+      "breadth": 56.7,
+      "strength": 60.2,
+      "volatility": 62.8,
+      "drawdown": 63.6,
+      "relative": 4.2,
+      "risk": 98.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-15",
+    "score": 58.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 52.4,
+      "breadth": 59.2,
+      "strength": 61.5,
+      "volatility": 62.7,
+      "drawdown": 65.4,
+      "relative": 8,
+      "risk": 98.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-16",
+    "score": 58.7,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 52.2,
+      "breadth": 59.2,
+      "strength": 61.7,
+      "volatility": 64.1,
+      "drawdown": 65,
+      "relative": 9.8,
+      "risk": 99.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-17",
+    "score": 57.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 48.4,
+      "breadth": 60.8,
+      "strength": 60.2,
+      "volatility": 64.3,
+      "drawdown": 61.1,
+      "relative": 5,
+      "risk": 98.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "score": 58,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 51.1,
+      "breadth": 59.2,
+      "strength": 60.3,
+      "volatility": 64.6,
+      "drawdown": 61.3,
+      "relative": 10,
+      "risk": 98.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "score": 58.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 56.1,
+      "breadth": 60,
+      "strength": 59.2,
+      "volatility": 66,
+      "drawdown": 63.3,
+      "relative": 4.5,
+      "risk": 97.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-22",
+    "score": 60.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 62.2,
+      "breadth": 59.2,
+      "strength": 61.1,
+      "volatility": 64.1,
+      "drawdown": 73.3,
+      "relative": 7.3,
+      "risk": 95.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-23",
+    "score": 52.6,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 47.3,
+      "breadth": 54.2,
+      "strength": 56.8,
+      "volatility": 52.4,
+      "drawdown": 55.7,
+      "relative": 7.9,
+      "risk": 95.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-24",
+    "score": 55.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 55.7,
+      "breadth": 57.5,
+      "strength": 58.8,
+      "volatility": 50,
+      "drawdown": 64.1,
+      "relative": 10.4,
+      "risk": 96.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-27",
+    "score": 58.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 62.2,
+      "breadth": 60,
+      "strength": 60.6,
+      "volatility": 49.5,
+      "drawdown": 69.1,
+      "relative": 10.6,
+      "risk": 96.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "score": 63.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 64.1,
+      "breadth": 65,
+      "strength": 63.5,
+      "volatility": 49,
+      "drawdown": 75.7,
+      "relative": 32,
+      "risk": 97.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "score": 60.5,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 56.3,
+      "breadth": 64.2,
+      "strength": 63.2,
+      "volatility": 50,
+      "drawdown": 69.2,
+      "relative": 27.2,
+      "risk": 97.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-30",
+    "score": 63.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 60.5,
+      "breadth": 65,
+      "strength": 63.3,
+      "volatility": 57.8,
+      "drawdown": 79.6,
+      "relative": 20.9,
+      "risk": 98.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "score": 63.8,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 62.7,
+      "breadth": 63.3,
+      "strength": 62.7,
+      "volatility": 57.8,
+      "drawdown": 82,
+      "relative": 23,
+      "risk": 98.8,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "score": 68.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 73.1,
+      "breadth": 65.8,
+      "strength": 65.9,
+      "volatility": 52.7,
+      "drawdown": 95.1,
+      "relative": 36.2,
+      "risk": 99.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "score": 69.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 80.7,
+      "breadth": 69.2,
+      "strength": 67.7,
+      "volatility": 53.1,
+      "drawdown": 97.8,
+      "relative": 19,
+      "risk": 99.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "score": 76.3,
+    "label": "Avidité extrême",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 85.2,
+      "breadth": 70,
+      "strength": 67.4,
+      "volatility": 81.9,
+      "drawdown": 97.7,
+      "relative": 33.1,
+      "risk": 97.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "score": 75.4,
+    "label": "Avidité extrême",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 83.4,
+      "breadth": 74.2,
+      "strength": 68.5,
+      "volatility": 83.8,
+      "drawdown": 97.7,
+      "relative": 15.4,
+      "risk": 97.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "score": 76.8,
+    "label": "Avidité extrême",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 86.5,
+      "breadth": 71.7,
+      "strength": 68.7,
+      "volatility": 83.8,
+      "drawdown": 97.6,
+      "relative": 31.5,
+      "risk": 94.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-10",
+    "score": 75.6,
+    "label": "Avidité extrême",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 85.6,
+      "breadth": 69.2,
+      "strength": 68,
+      "volatility": 83.8,
+      "drawdown": 97.6,
+      "relative": 28.8,
+      "risk": 93.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "score": 74.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 85.1,
+      "breadth": 70,
+      "strength": 67,
+      "volatility": 83.1,
+      "drawdown": 94.4,
+      "relative": 23,
+      "risk": 92.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "score": 71.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 79,
+      "breadth": 65.8,
+      "strength": 65.5,
+      "volatility": 81.2,
+      "drawdown": 87.8,
+      "relative": 28,
+      "risk": 88.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "score": 69.9,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 78,
+      "breadth": 65,
+      "strength": 64.9,
+      "volatility": 80.5,
+      "drawdown": 84.4,
+      "relative": 21.4,
+      "risk": 90.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "score": 70.4,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 77.3,
+      "breadth": 62.5,
+      "strength": 64.9,
+      "volatility": 81.6,
+      "drawdown": 83.6,
+      "relative": 33.3,
+      "risk": 88.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "score": 63.4,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 70.7,
+      "breadth": 60.8,
+      "strength": 62.6,
+      "volatility": 78.8,
+      "drawdown": 77.3,
+      "relative": 4.4,
+      "risk": 80.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "score": 62.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 65.9,
+      "breadth": 57.5,
+      "strength": 60.8,
+      "volatility": 72.9,
+      "drawdown": 68.2,
+      "relative": 25,
+      "risk": 83.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "score": 60.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 61.8,
+      "breadth": 56.7,
+      "strength": 61.3,
+      "volatility": 77.6,
+      "drawdown": 66.6,
+      "relative": 24.3,
+      "risk": 67.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "score": 62.1,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 63,
+      "breadth": 60,
+      "strength": 60.3,
+      "volatility": 90.6,
+      "drawdown": 61.1,
+      "relative": 19.8,
+      "risk": 67.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "score": 62.6,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 63.2,
+      "breadth": 60,
+      "strength": 61,
+      "volatility": 92.1,
+      "drawdown": 64.3,
+      "relative": 16.2,
+      "risk": 68.5,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "score": 60.4,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 59.7,
+      "breadth": 59.2,
+      "strength": 60.8,
+      "volatility": 91.9,
+      "drawdown": 61,
+      "relative": 16.9,
+      "risk": 59.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "score": 58.1,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 54.4,
+      "breadth": 52.5,
+      "strength": 60.2,
+      "volatility": 92.5,
+      "drawdown": 59.4,
+      "relative": 19.4,
+      "risk": 58.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "score": 59.2,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 60.5,
+      "breadth": 51.7,
+      "strength": 60.1,
+      "volatility": 93.2,
+      "drawdown": 61.8,
+      "relative": 17,
+      "risk": 60,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "score": 49.3,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 40.9,
+      "breadth": 46.7,
+      "strength": 55,
+      "volatility": 86.8,
+      "drawdown": 45.5,
+      "relative": 5,
+      "risk": 53.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "score": 51.6,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 48.3,
+      "breadth": 49.2,
+      "strength": 56.8,
+      "volatility": 81.4,
+      "drawdown": 54.6,
+      "relative": 3.4,
+      "risk": 56.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "score": 49.3,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 39.4,
+      "breadth": 42.5,
+      "strength": 54.9,
+      "volatility": 88.6,
+      "drawdown": 47.1,
+      "relative": 6,
+      "risk": 59.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "score": 47.7,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 35.3,
+      "breadth": 40,
+      "strength": 53.1,
+      "volatility": 91,
+      "drawdown": 42.9,
+      "relative": 7,
+      "risk": 57.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "score": 44.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 35.1,
+      "breadth": 35,
+      "strength": 52,
+      "volatility": 91.2,
+      "drawdown": 40.5,
+      "relative": 4.8,
+      "risk": 45,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "score": 44.1,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 33.8,
+      "breadth": 38.3,
+      "strength": 53.4,
+      "volatility": 91.8,
+      "drawdown": 41.2,
+      "relative": 5.3,
+      "risk": 32,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-04",
+    "score": 45,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 29.3,
+      "breadth": 40.8,
+      "strength": 53.7,
+      "volatility": 92,
+      "drawdown": 40.3,
+      "relative": 6.1,
+      "risk": 41.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "score": 45.9,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 30.2,
+      "breadth": 37.5,
+      "strength": 53.1,
+      "volatility": 91.6,
+      "drawdown": 43.8,
+      "relative": 9.1,
+      "risk": 49.3,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "score": 46.3,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 29.6,
+      "breadth": 40,
+      "strength": 54,
+      "volatility": 91,
+      "drawdown": 45.3,
+      "relative": 7,
+      "risk": 49.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "score": 38.7,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 20.1,
+      "breadth": 31.7,
+      "strength": 48.7,
+      "volatility": 77.3,
+      "drawdown": 31.7,
+      "relative": 10.8,
+      "risk": 47.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "score": 37.2,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 17.6,
+      "breadth": 32.5,
+      "strength": 47.7,
+      "volatility": 77.2,
+      "drawdown": 29.6,
+      "relative": 11.2,
+      "risk": 38.9,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-11",
+    "score": 38.2,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 21.9,
+      "breadth": 35,
+      "strength": 49,
+      "volatility": 70.1,
+      "drawdown": 32.9,
+      "relative": 11.2,
+      "risk": 43,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-14",
+    "score": 38.5,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 19.6,
+      "breadth": 35,
+      "strength": 48.8,
+      "volatility": 69.7,
+      "drawdown": 29.6,
+      "relative": 22.7,
+      "risk": 41.6,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "score": 37.3,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 19.9,
+      "breadth": 33.3,
+      "strength": 48.3,
+      "volatility": 71.1,
+      "drawdown": 28.3,
+      "relative": 14.4,
+      "risk": 41.2,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "score": 34.2,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 22.4,
+      "breadth": 31.7,
+      "strength": 49.5,
+      "volatility": 67.8,
+      "drawdown": 30.6,
+      "relative": 8.3,
+      "risk": 20.7,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "score": 35.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 25.2,
+      "breadth": 33.3,
+      "strength": 50.8,
+      "volatility": 66,
+      "drawdown": 33.9,
+      "relative": 8.2,
+      "risk": 24.1,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "score": 30.4,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 17.6,
+      "breadth": 29.2,
+      "strength": 46.4,
+      "volatility": 59,
+      "drawdown": 25.9,
+      "relative": 6.1,
+      "risk": 22.4,
+      "news": null
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "score": 32.6,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 23.4,
+      "breadth": 35,
+      "strength": 48.4,
+      "volatility": 53.8,
+      "drawdown": 30.4,
+      "relative": 5.9,
+      "risk": 23.2,
+      "news": null
+    }
+  },
+  {
     "date": "2026-09-22",
-    "score": 34.1,
+    "score": 34.2,
     "label": "Peur",
     "coverage_pct": 90,
     "components": {
@@ -10,8 +2954,8 @@
       "strength": 49.5,
       "volatility": 52.9,
       "drawdown": 31.8,
-      "relative": 17.2,
-      "risk": 20,
+      "relative": 17.6,
+      "risk": 19.9,
       "news": null
     }
   }
