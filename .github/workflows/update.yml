@@ -1,0 +1,57 @@
+name: Update Fear & Greed France
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 16,17 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fear-greed-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Paris time
+        id: paris
+        shell: bash
+        run: |
+          HOUR=$(TZ=Europe/Paris date +%H)
+          echo "hour=$HOUR" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$HOUR" = "18" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.paris.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        if: steps.paris.outputs.run == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update data
+        if: steps.paris.outputs.run == 'true'
+        run: node scripts/update.js
+
+      - name: Commit refreshed JSON
+        if: steps.paris.outputs.run == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No data change."
+            exit 0
+          fi
+          git config user.name "fear-greed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "data: update Fear & Greed France"
+          git push
