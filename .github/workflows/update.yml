@@ -5,9 +5,10 @@ on:
   push:
     paths:
       - "scripts/update.js"
+      - "scripts/backfill.js"
       - ".github/workflows/update.yml"
   schedule:
-    - cron: "40 16,17 * * 1-5"
+    - cron: "40 17 * * 1-5"
 
 permissions:
   contents: write
@@ -20,38 +21,21 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Check Paris time
-        id: paris
-        shell: bash
-        run: |
-          HOUR=$(TZ=Europe/Paris date +%H)
-          echo "hour=$HOUR" >> "$GITHUB_OUTPUT"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "push" ] || [ "$HOUR" = "18" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Checkout
-        if: steps.paris.outputs.run == 'true'
         uses: actions/checkout@v4
 
       - name: Setup Node
-        if: steps.paris.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
       - name: Update data
-        if: steps.paris.outputs.run == 'true'
         run: node scripts/update.js
 
       - name: Backfill 2026 history
-        if: steps.paris.outputs.run == 'true'
         run: node scripts/backfill.js
 
       - name: Commit refreshed JSON
-        if: steps.paris.outputs.run == 'true'
         shell: bash
         run: |
           if git diff --quiet -- data/; then
