@@ -3009,7 +3009,7 @@
   },
   {
     "date": "2026-10-02",
-    "score": 26.4,
+    "score": 26.5,
     "label": "Peur",
     "coverage_pct": 90,
     "components": {
@@ -3017,9 +3017,9 @@
       "breadth": 25,
       "strength": 39.7,
       "volatility": 54.9,
-      "drawdown": 14.8,
+      "drawdown": 14.7,
       "relative": 2.3,
-      "risk": 32.1,
+      "risk": 33.3,
       "news": null
     }
   }
