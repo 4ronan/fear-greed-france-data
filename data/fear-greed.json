@@ -1,10 +1,10 @@
 {
   "name": "Fear & Greed France",
   "version": "3.0",
-  "generated_at": "2026-10-05T23:21:43.298Z",
-  "market_date": "2026-10-02",
-  "score": 26.5,
-  "label": "Peur",
+  "generated_at": "2026-10-06T21:53:23.320Z",
+  "market_date": "2026-10-06",
+  "score": 24.6,
+  "label": "Peur extrême",
   "coverage_pct": 90,
   "minimum_coverage_pct": 70,
   "methodology": "Percentiles historiques et breadth CAC 40 ; poids disponibles renormalisés.",
@@ -12,11 +12,11 @@
     "momentum": {
       "name": "Momentum CAC 40",
       "weight": 15,
-      "score": 10.8,
+      "score": 8.3,
       "metrics": {
-        "ratio": 0.9525754937437234,
-        "r20": -0.046091341038471456,
-        "r60": -0.05297774181252013
+        "ratio": 0.9494307522031629,
+        "r20": -0.05444959220964751,
+        "r60": -0.059972368165194356
       }
     },
     "breadth": {
@@ -33,44 +33,44 @@
     "strength": {
       "name": "Force du marché",
       "weight": 10,
-      "score": 39.7,
+      "score": 41.9,
       "metrics": {
         "usable": 40,
-        "avgPosition": 39.69531196838875
+        "avgPosition": 41.90301612168635
       }
     },
     "volatility": {
       "name": "Volatilité",
       "weight": 15,
-      "score": 54.9,
+      "score": 54.2,
       "metrics": {
-        "vol": 0.13131462023139165,
-        "percentile": 45.11904761904762
+        "vol": 0.13239961738285536,
+        "percentile": 45.833333333333336
       }
     },
     "drawdown": {
       "name": "Drawdown",
       "weight": 10,
-      "score": 14.7,
+      "score": 13,
       "metrics": {
-        "drawdown": -0.09498481051048879
+        "drawdown": -0.09866576464209154
       }
     },
     "relative": {
       "name": "France vs Europe",
       "weight": 10,
-      "score": 2.3,
+      "score": 0.3,
       "metrics": {
-        "relative60": -0.04820047260886984
+        "relative60": -0.05877939800101417
       }
     },
     "risk": {
       "name": "Actions vs or",
       "weight": 10,
-      "score": 33.3,
+      "score": 22.9,
       "metrics": {
-        "relative60": -0.0790608482819255,
-        "alignedDays": 1280
+        "relative60": -0.10029550110475793,
+        "alignedDays": 1281
       }
     },
     "news": {
