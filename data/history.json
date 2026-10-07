@@ -3029,13 +3029,13 @@
     "label": "Peur extrême",
     "coverage_pct": 90,
     "components": {
-      "momentum": 8.3,
+      "momentum": 8.2,
       "breadth": 25,
       "strength": 41.9,
       "volatility": 54.2,
-      "drawdown": 13,
+      "drawdown": 12.9,
       "relative": 0.3,
-      "risk": 22.9,
+      "risk": 23,
       "news": null
     }
   }
