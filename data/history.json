@@ -3038,5 +3038,21 @@
       "risk": 23,
       "news": null
     }
+  },
+  {
+    "date": "2026-10-07",
+    "score": 24.6,
+    "label": "Peur extrême",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 7.4,
+      "breadth": 25,
+      "strength": 39.3,
+      "volatility": 63.9,
+      "drawdown": 8.2,
+      "relative": 0.1,
+      "risk": 16.5,
+      "news": null
+    }
   }
 ]
