@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-10-15T20:32:04.196Z",
-  "market_date": "2026-10-15",
+  "generated_at": "2026-10-16T20:04:06.111Z",
+  "market_date": "2026-10-16",
   "assets": {
     "cac": {
       "symbol": "^FCHI",
       "currency": "EUR",
-      "close": 7934.7001953125,
-      "previous_close": 7873.10986328125,
-      "change_1d": 0.007822872168784967
+      "close": 7956.7001953125,
+      "previous_close": 7934.7001953125,
+      "change_1d": 0.002772631537231396
     },
     "euro": {
       "symbol": "^STOXX50E",
-      "currency": "EUR",
-      "close": 6168.259765625,
-      "previous_close": 6190.3701171875,
-      "change_1d": -0.0035717333768316983
+      "currency": "",
+      "close": 6204.22998046875,
+      "previous_close": 6168.259765625,
+      "change_1d": 0.005831501300286979
     },
     "gold": {
       "symbol": "GC=F",
       "currency": "USD",
-      "close": 4190.7001953125,
-      "previous_close": 4107.89990234375,
-      "change_1d": 0.020156356030366807
+      "close": 4188.7998046875,
+      "previous_close": 4170.10009765625,
+      "change_1d": 0.004484234573112422
     },
     "fx": {
       "symbol": "EURUSD=X",
       "currency": "USD",
-      "close": 1.1218308210372925,
-      "previous_close": 1.1195074319839478,
-      "change_1d": 0.0020753672436344406
+      "close": 1.1242270469665527,
+      "previous_close": 1.1213151216506958,
+      "change_1d": 0.0025968840155925488
     }
   }
 }
