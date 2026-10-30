@@ -3278,5 +3278,21 @@
       "risk": 45.2,
       "news": null
     }
+  },
+  {
+    "date": "2026-10-30",
+    "score": 43.2,
+    "label": "Peur",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 26.2,
+      "breadth": 50,
+      "strength": 46.3,
+      "volatility": 65,
+      "drawdown": 19.2,
+      "relative": 23.1,
+      "risk": 63.3,
+      "news": null
+    }
   }
 ]
