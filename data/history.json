@@ -3281,17 +3281,17 @@
   },
   {
     "date": "2026-10-30",
-    "score": 43.2,
+    "score": 43.1,
     "label": "Peur",
     "coverage_pct": 90,
     "components": {
-      "momentum": 26.2,
+      "momentum": 26.1,
       "breadth": 50,
       "strength": 46.3,
       "volatility": 65,
-      "drawdown": 19.2,
+      "drawdown": 19.1,
       "relative": 23.1,
-      "risk": 63.3,
+      "risk": 62.5,
       "news": null
     }
   }
