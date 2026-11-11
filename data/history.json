@@ -3361,7 +3361,7 @@
   },
   {
     "date": "2026-11-10",
-    "score": 58.8,
+    "score": 59.2,
     "label": "Avidité",
     "coverage_pct": 90,
     "components": {
@@ -3371,7 +3371,7 @@
       "volatility": 53.4,
       "drawdown": 40.7,
       "relative": 63.8,
-      "risk": 73.8,
+      "risk": 77.3,
       "news": null
     }
   }
