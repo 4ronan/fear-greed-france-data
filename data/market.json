@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:50:52.617Z",
+  "generated_at": "2026-11-17T01:02:10.660Z",
   "market_date": "2026-11-13",
   "assets": {
     "cac": {
@@ -11,7 +11,7 @@
     },
     "euro": {
       "symbol": "^STOXX50E",
-      "currency": "EUR",
+      "currency": "",
       "close": 6386.85986328125,
       "previous_close": 6398.97998046875,
       "change_1d": -0.0018940701837626417
@@ -19,16 +19,16 @@
     "gold": {
       "symbol": "GC=F",
       "currency": "USD",
-      "close": 3887.60009765625,
-      "previous_close": 3885.300048828125,
-      "change_1d": 0.0005919874396365099
+      "close": 3861.5,
+      "previous_close": 3886.300048828125,
+      "change_1d": -0.006381403524311824
     },
     "fx": {
       "symbol": "EURUSD=X",
       "currency": "USD",
-      "close": 1.1027790307998657,
-      "previous_close": 1.1095207929611206,
-      "change_1d": -0.006076282845734027
+      "close": 1.0999890565872192,
+      "previous_close": 1.1024872064590454,
+      "change_1d": -0.0022659218693790173
     }
   }
 }
