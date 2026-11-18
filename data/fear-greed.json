@@ -1,9 +1,9 @@
 {
   "name": "Fear & Greed France",
   "version": "3.0",
-  "generated_at": "2026-11-17T23:57:22.300Z",
-  "market_date": "2026-11-16",
-  "score": 66.8,
+  "generated_at": "2026-11-18T23:33:27.376Z",
+  "market_date": "2026-11-17",
+  "score": 59.1,
   "label": "Avidité",
   "coverage_pct": 90,
   "minimum_coverage_pct": 70,
@@ -12,64 +12,64 @@
     "momentum": {
       "name": "Momentum CAC 40",
       "weight": 15,
-      "score": 59.5,
+      "score": 49.9,
       "metrics": {
-        "ratio": 1.0122007832262594,
-        "r20": 0.06150827807726644,
-        "r60": -0.011949562159003557
+        "ratio": 0.9957709887538353,
+        "r20": 0.048260574134996403,
+        "r60": -0.026355568860487733
       }
     },
     "breadth": {
       "name": "Breadth CAC 40",
       "weight": 20,
-      "score": 69.2,
+      "score": 60,
       "metrics": {
         "usable": 40,
-        "above50": 31,
-        "above200": 21,
-        "pos20": 31
+        "above50": 26,
+        "above200": 19,
+        "pos20": 27
       }
     },
     "strength": {
       "name": "Force du marché",
       "weight": 10,
-      "score": 57.3,
+      "score": 52.6,
       "metrics": {
         "usable": 40,
-        "avgPosition": 57.31047796016496
+        "avgPosition": 52.56190111829419
       }
     },
     "volatility": {
       "name": "Volatilité",
       "weight": 15,
-      "score": 63.5,
+      "score": 46.4,
       "metrics": {
-        "vol": 0.1232994930018133,
-        "percentile": 36.46825396825397
+        "vol": 0.139420873390957,
+        "percentile": 53.611111111111114
       }
     },
     "drawdown": {
       "name": "Drawdown",
       "weight": 10,
-      "score": 49.4,
+      "score": 35.8,
       "metrics": {
-        "drawdown": -0.042863737772726784
+        "drawdown": -0.058359870873951
       }
     },
     "relative": {
       "name": "France vs Europe",
       "weight": 10,
-      "score": 75.8,
+      "score": 85.9,
       "metrics": {
-        "relative60": 0.003556726533436416
+        "relative60": 0.011812125547020491
       }
     },
     "risk": {
       "name": "Actions vs or",
       "weight": 10,
-      "score": 95.9,
+      "score": 93.4,
       "metrics": {
-        "relative60": 0.13825388195141675,
+        "relative60": 0.11430567463396102,
         "alignedDays": 1280
       }
     },
