@@ -3454,5 +3454,21 @@
       "risk": 95.3,
       "news": null
     }
+  },
+  {
+    "date": "2026-11-19",
+    "score": 57.3,
+    "label": "Avidité",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 42.6,
+      "breadth": 53.3,
+      "strength": 47.3,
+      "volatility": 51.8,
+      "drawdown": 26,
+      "relative": 96.6,
+      "risk": 97.4,
+      "news": null
+    }
   }
 ]
