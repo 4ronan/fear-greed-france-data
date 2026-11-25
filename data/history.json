@@ -3473,16 +3473,16 @@
   },
   {
     "date": "2026-11-23",
-    "score": 50.4,
+    "score": 52.3,
     "label": "Neutre",
     "coverage_pct": 90,
     "components": {
       "momentum": 38.1,
-      "breadth": 46.7,
-      "strength": 42.8,
+      "breadth": 53.3,
+      "strength": 46.2,
       "volatility": 31.6,
-      "drawdown": 22.9,
-      "relative": 96.4,
+      "drawdown": 22.8,
+      "relative": 96.5,
       "risk": 93.7,
       "news": null
     }
