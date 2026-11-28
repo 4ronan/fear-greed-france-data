@@ -3518,5 +3518,21 @@
       "risk": 95.7,
       "news": null
     }
+  },
+  {
+    "date": "2026-11-26",
+    "score": 54.4,
+    "label": "Neutre",
+    "coverage_pct": 90,
+    "components": {
+      "momentum": 40.3,
+      "breadth": 55.8,
+      "strength": 49,
+      "volatility": 27.9,
+      "drawdown": 27.8,
+      "relative": 99.9,
+      "risk": 98.6,
+      "news": null
+    }
   }
 ]
